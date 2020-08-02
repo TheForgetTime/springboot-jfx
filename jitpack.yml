@@ -2,6 +2,7 @@ jdk:
   - openjdk14
 install:
   - echo "Running a custom install command"
+  - java --version
   - ./gradlew clean install -xtest
 env:
   MYVAR: "custom environment variable"
