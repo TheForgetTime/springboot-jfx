@@ -1,0 +1,21 @@
+{
+  "properties": [
+    {
+      "name": "springjfx.title",
+      "type": "java.lang.String",
+      "description": "Description for springjfx.title."
+    },
+    {
+      "name": "springjfx.width",
+      "type": "java.lang.Double"
+    },
+    {
+      "name": "springjfx.height",
+      "type": "java.lang.Double"
+    },
+    {
+      "name": "springjfx.stageStyle",
+      "type": "javafx.stage.StageStyle"
+    }
+  ]
+}
