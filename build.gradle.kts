@@ -1,15 +1,15 @@
 plugins {
     java
     kotlin("jvm") version "1.3.72"
-    id("org.openjfx.javafxplugin") version "0.0.9"
+    id("org.openjfx.javafxplugin") version "0.0.8"
     kotlin("plugin.spring") version "1.3.72"
     id("org.springframework.boot") version "2.3.2.RELEASE"
     id("io.spring.dependency-management") version "1.0.9.RELEASE"
     maven
 }
 
-group = rootProject.group
-version = rootProject.version
+group = "com.gitee.n__n"
+version = "1.0.1"
 
 configurations {
     compileOnly {
